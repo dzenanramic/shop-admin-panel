@@ -1,0 +1,412 @@
+{
+  "categories": [
+
+      "Products", 
+      "Catalogues", 
+      "Orders", 
+      "Images", 
+      "Categories"
+
+  ],
+  "orders": [
+    {
+      "order": "N1",
+      "date": "04-01-2024",
+      "user": "John Doe",
+      "payment": true,
+      "price": 35.75,
+      "delivered": true,
+      "items": ["YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N2",
+      "date": "24-03-2024",
+      "user": "Jane Smith",
+      "payment": true,
+      "price": 42.99,
+      "delivered": false,
+      "items": ["YZF-R1M", "YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N3",
+      "date": "14-01-2024",
+      "user": "Alice Johnson",
+      "payment": false,
+      "price": 15.25,
+      "delivered": true,
+      "items": ["YZF-R1M", "YZF-R1M", "YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N4",
+      "date": "04-01-2024",
+      "user": "Bob Williams",
+      "payment": false,
+      "price": 28.49,
+      "delivered": true,
+      "items": ["YZF-R1M"]
+    },
+    {
+      "order": "N5",
+      "date": "04-02-2024",
+      "user": "Emily Brown",
+      "payment": true,
+      "price": 19.99,
+      "delivered": false,
+      "items": ["YZF-R1M", "YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N6",
+      "date": "04-04-2024",
+      "user": "Michael Taylor",
+      "payment": false,
+      "price": 22.5,
+      "delivered": true,
+      "items": ["YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N7",
+      "date": "02-01-2024",
+      "user": "Sarah Martinez",
+      "payment": true,
+      "price": 55.0,
+      "delivered": true,
+      "items": ["YZF-R1M"]
+    },
+    {
+      "order": "N8",
+      "date": "04-01-2024",
+      "user": "David Anderson",
+      "payment": false,
+      "price": 38.75,
+      "delivered": false,
+      "items": ["YZF-R1M", "YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N9",
+      "date": "12-01-2024",
+      "user": "Olivia Garcia",
+      "payment": false,
+      "price": 33.25,
+      "delivered": false,
+      "items": ["YZF-R1M"]
+    },
+    {
+      "order": "N10",
+      "date": "11-01-2024",
+      "user": "James Wilson",
+      "payment": false,
+      "price": 24.99,
+      "delivered": false,
+      "items": ["YZF-R1M", "YZF-R1M", "YZF-R1M", "YZF-R1M", "YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N11",
+      "date": "17-02-2024",
+      "user": "Emma Thomas",
+      "payment": false,
+      "price": 48.5,
+      "delivered": false,
+      "items": ["YZF-R1M"]
+    },
+    {
+      "order": "N12",
+      "date": "12-01-2024",
+      "user": "Noah Hernandez",
+      "payment": true,
+      "price": 31.99,
+      "delivered": true,
+      "items": ["YZF-R1M"]
+    },
+    {
+      "order": "N13",
+      "date": "12-01-2024",
+      "user": "Ava Lopez",
+      "payment": true,
+      "price": 27.75,
+      "delivered": true,
+      "items": ["YZF-R1M", "YZF-R1M", "YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N14",
+      "date": "12-01-2024",
+      "user": "William Gonzalez",
+      "payment": true,
+      "price": 29.5,
+      "delivered": false,
+      "items": ["YZF-R1M"]
+    },
+    {
+      "order": "N15",
+      "date": "12-01-2024",
+      "user": "Isabella Rodriguez",
+      "payment": false,
+      "price": 36.99,
+      "delivered": false,
+      "items": ["YZF-R1M"]
+    },
+    {
+      "order": "N16",
+      "date": "12-01-2024",
+      "user": "Mason Moore",
+      "payment": true,
+      "price": 44.25,
+      "delivered": true,
+      "items": ["YZF-R1M"]
+    },
+    {
+      "order": "N17",
+      "date": "12-01-2024",
+      "user": "Sophia Rivera",
+      "payment": false,
+      "price": 21.75,
+      "delivered": false,
+      "items": ["YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N18",
+      "date": "12-01-2024",
+      "user": "Ethan Scott",
+      "payment": true,
+      "price": 19.99,
+      "delivered": true,
+      "items": ["YZF-R1M", "YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N19",
+      "date": "12-01-2024",
+      "user": "Amelia Price",
+      "payment": true,
+      "price": 55.0,
+      "delivered": true,
+      "items": ["YZF-R1M", "YZF-R1M", "YZF-R1M", "YZF-R1M"]
+    },
+    {
+      "order": "N20",
+      "date": "12-01-2024",
+      "user": "Logan King",
+      "payment": true,
+      "price": 33.25,
+      "delivered": false,
+      "items": ["YZF-R1M"]
+    }
+  ],
+  "yamahaBikes": [
+    {
+      "id": "1",
+      "model": "YZF-R1",
+      "category": "Supersport",
+      "engine": "998cc",
+      "horsepower": "198",
+      "torque": "112 lb-ft",
+      "image":"https://www.yamaha-motor.co.nz/-/media/products/motorcycle/road/supersport/2022/yzf-r1n/overview-panel/2022_yzf-r1_dpbmc_aus_stu_001_450x375.ashx",
+      "availability": 3
+    },
+    {
+      "id": "2",
+      "model": "MT-10",
+      "category": "Naked",
+      "engine": "998cc",
+      "horsepower": "165",
+      "torque": "112 lb-ft",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2023/MT10/2023-Yamaha-MT10-EU-Cyan_Storm-360-Degrees-001-03_Mobile.jpg",      
+      "availability": 2
+    },
+    {
+      "id": "3",
+      "model": "XSR900",
+      "category": "Retro Sport",
+      "engine": "847cc",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2022/XS850/2022-Yamaha-XS850-EU-Legend_Blue-360-Degrees-001-03_Mobile.jpg",      
+      "horsepower": "113",
+      "torque": "64 lb-ft",
+      "availability": 0
+    },
+    {
+      "id": "4",
+      "model": "MT-07",
+      "category": "Naked",
+      "engine": "689cc",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2023/MT07A/2023-Yamaha-MT07A-EU-Cyan_Storm-360-Degrees-001-03_Mobile.jpg",      
+      "horsepower": "74",
+      "torque": null,
+      "availability": 4
+    },
+    {
+      "id": "5",
+      "model": "XSR700",
+      "category": "Retro Sport",
+      "engine": "689cc",
+      "horsepower": "72",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2017/XS700/2017-Yamaha-XS700-EU-Forest_Green-360-Degrees-001_Mobile.jpg",      
+      "torque": "50 lb-ft",
+      "availability": 4
+    },
+    {
+      "id": "6",
+      "model": "Ténéré 700",
+      "category": "Adventure",
+      "engine": "689cc",
+      "horsepower": "68",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2024/XTZ700-35/2024-Yamaha-XTZ700-35-EU-Icon_Blue-Studio-001-03.jpg",      
+      "torque": "49 lb-ft",
+      "availability": 3
+    },
+    {
+      "id": "7",
+      "model": "Niken GT",
+      "category": "Touring",
+      "engine": "847cc",
+      "horsepower": "113",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2023/LMWTRDX/2023-Yamaha-LMWTRDX-EU-Yamaha_Black-360-Degrees-001-03_Mobile.jpg",      
+      "torque": "64 lb-ft",
+      "availability": 7
+    },
+    {
+      "id": "8",
+      "model": "MT-09",
+      "category": "Naked",
+      "engine": "847cc",
+      "horsepower": "115",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2024/MT09DX/2024-Yamaha-MT09DX-EU-Icon_Performance-360-Degrees-001-03_Mobile.jpg",      
+      "torque": "64 lb-ft",
+      "availability": 0
+    },
+    {
+      "id": "15",
+      "model": "XMAX 300",
+      "category": "Scooter",
+      "engine": "292cc",
+      "horsepower": "28",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2024/XMAX300ASP/2024-Yamaha-XMAX300ASP-EU-Dark_Magma-360-Degrees-001-03_Mobile.jpg",      
+      "torque": "18 lb-ft",
+      "availability": 2
+    },
+    {
+      "id": "9",
+      "model": "TMAX DX",
+      "category": "Maxi-Scooter",
+      "engine": "562cc",
+      "horsepower": "47",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2019/XP500ADX/2019-Yamaha-XP500ADX-EU-Ice_Fluo-360-Degrees-001_Mobile.jpg",      
+      "torque": "39 lb-ft",
+      "availability": 1
+    },
+    {
+      "id": "10",
+      "model": "Tracer 900 GT",
+      "category": "Sport Touring",
+      "engine": "847cc",
+      "horsepower": "113",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2019/MT09TRGT/2019-Yamaha-MT09TRGT-EU-Nimbus_Grey-Studio-001-03.jpg",      
+      "torque": "64 lb-ft",
+      "availability": 3
+    },
+    {
+      "id": "11",
+      "model": "YZF-R6",
+      "category": "Supersport",
+      "engine": "599cc",
+      "horsepower": "118",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2016/YZF600R6/2016-Yamaha-YZF600R6-EU-Matt_Grey-Studio-002.jpg",      
+      "torque": "49 lb-ft",
+      "availability": 8
+    },
+    {
+      "id": "12",
+      "model": "WR250F",
+      "category": "Dirt Bike",
+      "engine": "250cc",
+      "horsepower": "N/a",
+      "image":"https://frasermotorcycles.com.au/cdn/shop/products/YAMAHA_WR250F_2022_1.png?v=1643771985",      
+      "torque": null,
+      "availability": 3
+    },
+    {
+      "id": "13",
+      "model": "MT-125",
+      "category": "Naked",
+      "engine": "125cc",
+      "horsepower": "14",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2024/MT125/2024-Yamaha-MT125-EU-Midnight_Cyan-360-Degrees-001-03_Mobile.jpg",      
+      "torque": "8 lb-ft",
+      "availability": 1
+    },
+    {
+      "id": "14",
+      "model": "XSR125",
+      "category": "Retro Sport",
+      "engine": "125cc",
+      "horsepower": "14",
+      "image":"https://cdn2.yamaha-motor.eu/prod/product-assets/2022/XS125/2022-Yamaha-XS125-EU-Redline-360-Degrees-001-03_Mobile.jpg",      
+      "torque": "8 lb-ft",
+      "availability": 5
+    }
+  ],
+
+  "bikeCategories": [
+      {
+        "name": "Street",
+        "description": "Designed for everyday riding on paved roads. Comfortable riding position, good performance for commuting or cruising."
+      },
+      {
+        "name": "Sport",
+        "description": "Built for performance and handling. Powerful engines, aggressive styling, focused riding position."
+      },
+      {
+        "name": "Cruiser",
+        "description": "Prioritize comfort and style. Relaxed riding position, low seat height, often large engines."
+      },
+      {
+        "name": "Adventure Touring",
+        "description": "Versatile for on and off-road riding. Comfortable, good suspension travel, luggage capacity for long trips."
+      },
+      {
+        "name": "Scooter",
+        "description": "Known for automatic transmission, step-through design, storage compartments. Convenient and fuel-efficient for commuting."
+      },
+      {
+        "name": "Supersport",
+        "description": "High-performance variant of sport bikes. Extremely powerful engines, lightweight construction, aggressive riding position for track riding."
+      },
+      {
+        "name": "Hyper Naked",
+        "description": "Street-oriented motorcycles inspired by superbikes. Powerful engines, upright riding position, minimal fairings."
+      },
+      {
+        "name": "Sport Touring",
+        "description": "Combines sport bike performance with touring comfort. Powerful engines, comfortable ergonomics, luggage capacity for longer rides."
+      },
+      {
+        "name": "Off-Road",
+        "description": "Designed for dirt riding and motocross. Focuses on suspension travel, lightweight construction, and maneuverability."
+      },
+      {
+        "name": "Dual-Sport",
+        "description": "Capable on both paved and unpaved roads. Offers a balance between on-road comfort and off-road capability."
+      },
+      {
+        "name": "Electric",
+        "description": "Zero-emission motorcycles powered by electric motors. Offer quiet operation, instant torque, and lower running costs."
+      },
+      {
+        "name": "Sport Heritage",
+        "description": "Blends classic styling with modern performance. Inspired by iconic Yamaha models, offering timeless design with contemporary engineering."
+      },
+      {
+        "name": "Naked",
+        "description": "Focused on urban riding and versatility. Stripped-down styling with exposed frame and minimal bodywork, offering a raw and agile riding experience."
+      },
+      {
+        "name": "Touring",
+        "description": "Designed for long-distance travel and comfort. Equipped with amenities such as large windshields, spacious seats, and ample storage for extended journeys."
+      },
+      {
+        "name": "Motocross",
+        "description": "Built for competitive off-road racing. High-performance machines optimized for jumps, bumps, and tight corners on motocross tracks."
+      },
+      {
+        "name": "Enduro",
+        "description": "Versatile motorcycles for off-road endurance racing. Balanced between agility and durability, with features like long-travel suspension and robust construction."
+      }
+    ]
+}
